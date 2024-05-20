@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+img {
+  display: block;
+  width: 100%;
+}
+.wrapper {
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: bisque;
+  padding: 1rem;
+}
+.logo {
+  font-size: 1.5rem;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+li {
+  padding: 0 2rem;
+}
+li a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #212121;
+}
+.courses h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+.courses-categoies {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.mission {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.mission-content {
+  width: 400px;
+}
